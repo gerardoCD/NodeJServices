@@ -3,7 +3,7 @@ var app = express();
 
 app.get('/data', function(req, res) {
     let salida = {
-        nombre: "ferando",
+        nombre: "Gerardo",
         edad: 15,
         url: req.url
     }
