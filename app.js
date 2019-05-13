@@ -3,7 +3,7 @@ var app = express();
 
 app.get('/data', function(req, res) {
     let salida = {
-        nombre: "Gerardo",
+        nombre: "Puto el que lo lea XD",
         edad: 15,
         url: req.url
     }
