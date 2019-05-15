@@ -9,7 +9,7 @@ app.get('/data', function(req, res) {
     }
     res.send(salida)
 
-    res.send('Hello World1');
+    res.send('Hello World');
 })
 
 var server = app.listen(process.env.PORT || 8081, function() {
